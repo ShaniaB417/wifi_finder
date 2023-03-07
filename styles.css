@@ -1,0 +1,74 @@
+/* Form Layout*/
+
+.container{
+
+    position: relative;
+    clear:both;
+    overflow:auto;
+}
+
+
+body{
+    background-color: whitesmoke;
+    font-size: large;
+   
+}
+
+
+img{
+    float: left;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+}
+
+
+input{
+      width: 30%; 
+      margin: 8px; 
+      border: 3px solid lightblue; 
+      border-radius: 4px; 
+            
+}
+
+
+.form {
+
+    float:right;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+
+section{
+    margin-top: 10%;
+}
+/* Nav styles */
+
+
+nav{
+    float: right;
+}
+
+ul li{
+    display: inline-block; padding:10px;
+    font-size:20px; font-family:raleway;
+  }
+  
+  ul li:hover{
+    color:lightblue;
+    
+  }
+
+
+#googlemap{
+
+    width:10%;
+    height:40px
+}
+
+
+
+
+
+

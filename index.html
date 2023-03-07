@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="map.js"></script>
+   
+
+    <title> Form and map</title>
+  </head>
+  <body>
+    <h1> Home </h1>
+
+    <div class="container">
+
+        <div class= "logo">
+        </div>
+        
+
+        <nav>
+            <ul>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="index.html">Home</a></li>
+            <li>About</li>
+            <li>Blank</li>
+           
+            </ul>
+        </nav>
+    
+
+    <section>
+    <p> <b>BACKGROUND INFO</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quos nisi sit ab, quaerat ducimus praesentium obcaecati veritatis 
+        corporis blanditiis, totam accusantium possimus, voluptatum at accusamus cumque unde! Consectetur, 
+        veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto non assumenda aperiam eius 
+        expedita consectetur molestias obcaecati repellendus similique provident earum voluptas quas, sequi tempora debitis
+        voluptates iure vero. Lorem, ipsum dolor sit amet consectetur adipisicing elit.Saepe exercitationem porro praesentium ipsa aut
+        nostrum, quae, quisquam, excepturi facere repellendus accusamus ratione. Atque commodi error similique iure, deleniti aut. Magnam.</p>
+    </section>
+      
+    <iframe
+  width="600"
+  height="450"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBU1dvYFTIU3esnvcpaetLuRoFJjKSlMrU
+    &q=Space+Needle,Seattle+WA">
+</iframe>
+  
+
+        <!------------- example: <form action="insert.php" method="post"> --------------->
+             
+           
+                       
+          <p>
+                         <label for="location"> Location type:</label>
+                         <input type="text" name="Location_Type" id="loctype">
+                      </p>
+           
+                       
+          <p>
+                         <label for="Location_Name">Location Name:</label>
+                         <input type="text" name="Location_Name" id="locName">
+                      </p>
+           
+                       
+          <p>
+                         <label for="Street_Address">Street Address:</label>
+                         <input type="text" name="Street_Address" id="Street_Address">
+                      </p>
+           
+          <p>
+                        <label for="city">City:</label>
+                        <input type="text" name="city" id="city">
+                     </p>
+
+          <p>
+                      <label for="State">State:</label>
+                      <input type="text" name="State" id="State">
+                   </p>
+
+          <p>
+                    <label for="Zip">Zip:</label>
+                    <input type="text" name="Zip" id="zip">
+                 </p>
+
+          <p>
+            <h4> Power outlet ? </h4>
+                  <label for="power_Outlet"> Yes </label>
+                  <input type="radio" name="power_outlet" id="power_Outlet">
+                  <label for="power_Outlet"> No </label>
+                  <input type="radio" name="power_outlet" id="power_Outlet">
+               </p>
+          
+          <p>
+                <h4> Free? </h4>
+                      <label for="Free"> Yes </label>
+                      <input type="radio" name="power_outlet" id="power_Outlet">
+                      <label for="power_Outlet"> No </label>
+                      <input type="radio" name="power_outlet" id="power_Outlet">
+
+          </p>
+
+          <p> <!----------------fix this -------------------->
+            <input type="submit" value="Submit">
+                      
+                  </p>
+
+                   </form>
+       
+        </div>
+      </div>
+    </div>
+  
+
+  </body>
+</html>
